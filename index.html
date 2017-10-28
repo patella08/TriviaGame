@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Triva Game</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<!-- JavaScript/jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+</head>
+<body>
+	<header id="masthead">
+		<div class="container">
+			<h1>Trivia Time!</h1>
+		</div>
+	</header>
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1 class="instructions">Instructions</h1>
+			<p class="instructions">You have 50 seconds to answer all the questions. Go!!</p>
+			<h2>
+				<button type="button" id="start-button">Start</button>
+			</h2>
+			<!--Timer Display-->
+			<div id="show-number"></div>
+			<!-- Question 1 -->
+			<p class="question">1. How many oceans are there?</p>
+			<ul class="answers">
+			<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">10</label><br/>
+			<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">1</label><br/>
+			<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">5</label><br/>
+			<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">4</label><br/>
+			</ul>
+			<!-- Question 2 -->
+			<p class="question">2. What is the brightest star in the night?</p>
+			<ul class="answers">
+			<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Arcturus</label><br/>
+			<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Sirius</label><br/>
+			<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">North Star</label><br/>
+			<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Canopus</label><br/>
+			</ul>
+			<!-- Question 3 -->
+			<p class="question">3.Which Adele song is in a Bond movie?</p>
+			<ul class="answers">
+			<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Hello</label><br/>
+			<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">Skyfall</label><br/>
+			<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">All I Ask</label><br/>
+			<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">Set Fire to the Rain</label><br/>
+			</ul>
+			<!-- Question 4 -->
+			<p class="question">4. Who is not a member of The Backstreet Boys?</p>
+			<ul class="answers">
+			<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Justin Timberlake</label><br/>
+			<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">AJ McLean</label><br/>
+			<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Nick Carter</label><br/>
+			<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Kevin Richardson</label><br/>
+			</ul>
+			<!-- Question 5 -->
+			<p class="question">4. What is the process called when milk turns into yogurt?</p>
+			<ul class="answers">
+			<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Molecule Synthesis</label><br/>
+			<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Bacteria Fermentation</label><br/>
+			<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Mold Growth</label><br/>
+			<input type="radio" name="q5" value="d" id="q5d"><label for="q5d">Mold Fermentation</label><br/>
+			</ul>
+			<!-- Submit Button -->
+			<button type="button" id="submit">Submit</button>
+		</section>
+	</div>
+	<footer id="footer" class="site-footer">
+		<div class="container">
+			Anisha Patel
+		</div>
+	</footer>
+</body>
+</html>
